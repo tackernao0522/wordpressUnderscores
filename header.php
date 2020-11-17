@@ -37,7 +37,7 @@
 				<?php
 				else :
 				?>
-					<!-- <p class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></p> -->
+					<p class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></p>
 				<?php
 				endif;
 				$takabo_description = get_bloginfo('description', 'display');
